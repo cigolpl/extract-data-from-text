@@ -2,7 +2,7 @@
   "name": "extract-data-from-text",
   "version": "1.0.0",
   "description": "Extract emails, prices, numbers, geo locations from texts by regular expressions",
-  "main": "index.js",
+  "main": "./lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
