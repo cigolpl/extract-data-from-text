@@ -1,6 +1,6 @@
 {
   "name": "extract-data-from-text",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Extract emails, prices, numbers, geo locations from texts by regular expressions",
   "main": "./lib/index.js",
   "scripts": {
