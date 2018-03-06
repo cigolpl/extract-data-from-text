@@ -1,10 +1,10 @@
 {
   "name": "extract-data-from-text",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Extract emails, prices, numbers, geo locations from texts by regular expressions",
   "main": "./lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha tests"
   },
   "keywords": [
     "extract emails",

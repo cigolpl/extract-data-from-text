@@ -51,6 +51,14 @@ describe('extract data', function() {
       should(Extractor.phones(text)[1]).be.equal('+1432456789');
       should(Extractor.phones(text)[1]).be.equal('+1432456789');
 
+      var text = '123 456 789';
+      should(Extractor.phones(text)).be.instanceOf(Array);
+      should(Extractor.phones(text)[0]).be.equal('123456789');
+
+      var text = '(123) 456 789';
+      should(Extractor.phones(text)).be.instanceOf(Array);
+      should(Extractor.phones(text)[0]).be.equal('123456789');
+
       done();
     })
 
