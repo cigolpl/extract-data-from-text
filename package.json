@@ -6,6 +6,10 @@
   "scripts": {
     "test": "mocha tests"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cigolpl/extract-data-from-text.git"
+  },
   "keywords": [
     "extract emails",
     "extract prices",
